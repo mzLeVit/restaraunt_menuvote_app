@@ -70,6 +70,7 @@ docker-compose exec backend python manage.py createsuperuser
 
 ### 6. Доступ до системи
 Бекенд буде доступний за адресою: http://localhost:8000/api/
+
 Фронтенд буде доступний за адресою: http://localhost:3000/
 ### 7. Тестування
 Для запуску тестів використовуйте наступну команду:
