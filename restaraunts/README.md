@@ -84,7 +84,8 @@ docker-compose exec backend pytest
 ```
 docker-compose down
 ```
-Додаткові команди
+### Додаткові команди
+
 Запуск міграцій:
 ```
 docker-compose exec backend python manage.py migrate
