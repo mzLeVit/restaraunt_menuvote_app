@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Vote Results</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <button id="backButton">← Back</button>
+            <h2>Today's Lunch Results</h2>
+        </div>
+        <div id="resultsSection" class="results">
+            <div class="result-item">
+                <span>Fish and Chips</span>
+                <div class="progress-bar">
+                    <div class="progress" id="fishAndChipsProgress" style="width: 40%;">40%</div>
+                </div>
+            </div>
+            <div class="result-item">
+                <span>Grilled Chicken Salad</span>
+                <div class="progress-bar">
+                    <div class="progress" id="chickenSaladProgress" style="width: 35%;">35%</div>
+                </div>
+            </div>
+            <div class="result-item">
+                <span>Vegetarian Pasta</span>
+                <div class="progress-bar">
+                    <div class="progress" id="vegetarianPastaProgress" style="width: 15%;">15%</div>
+                </div>
+            </div>
+            <div class="result-item">
+                <span>Beef Burger</span>
+                <div class="progress-bar">
+                    <div class="progress" id="beefBurgerProgress" style="width: 5%;">5%</div>
+                </div>
+            </div>
+        </div>
+        <div id="totalVotes" class="total-votes">
+            Total Votes: 100
+        </div>
+        <button id="changeVoteButton" class="change-vote-btn">Change My Vote</button>
+
+        <div id="noVotesMessage" class="no-votes-message" style="display: none;">
+            No votes have been cast yet.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

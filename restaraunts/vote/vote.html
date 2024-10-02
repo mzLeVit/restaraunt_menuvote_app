@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunch Vote</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <button id="backButton">← </button>
+            <h2>Vote for Today's Lunch</h2>
+        </div>
+        <form id="lunchForm">
+            <label>
+                Grilled Chicken Salad
+                <input type="radio" name="lunch" value="grilled_chicken_salad">
+            </label>
+            <label>
+                Vegetarian Pasta
+                <input type="radio" name="lunch" value="vegetarian_pasta">
+            </label>
+            <label>
+                Fish and Chips
+                <input type="radio" name="lunch" value="fish_and_chips" checked>
+            </label>
+            <label>
+                Beef Burger
+                <input type="radio" name="lunch" value="beef_burger">
+            </label>
+            <button type="submit">Submit Vote</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d5dad8;
+}
+
+.app-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.user-profile {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.menu-btn {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.blue {
+    background-color: #2196F3;
+}
+
+.blue:hover {
+    background-color: #0b7dda;
+}
+
+.yellow {
+    background-color: #FFEB3B;
+    color: black;
+}
+
+.yellow:hover {
+    background-color: #FDD835;
+}
+
+.purple {
+    background-color: #9C27B0;
+}
+
+.purple:hover {
+    background-color: #7B1FA2;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #888;
+}

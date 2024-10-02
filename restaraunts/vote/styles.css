@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0d9d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Green background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    color: white; /* White text */
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#backButton {
+    background-color: transparent; /* Transparent background for button */
+    color: white; /* White text */
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#backButton:hover {
+    color: #e0e0e0; /* Lighten text on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+form input[type="radio"] {
+    margin-left: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+form button:hover {
+    background-color: #45a049;
+}
